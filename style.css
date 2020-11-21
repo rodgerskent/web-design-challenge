@@ -21,6 +21,7 @@
   color: rgb(19, 86, 138)
 }
 
+
 .title {
   background: rgb(243, 247, 248);
   min-height: 10px;
@@ -34,4 +35,22 @@
 
 .red {
   background: rgb(224, 210, 210);
+}
+
+.table {
+  min-height: 50px;
+  padding: 1px;
+  margin: 1px;
+  font-weight: 600;
+  color: rgb(19, 86, 138);
+}
+
+.tbody {
+  font-weight: 600;
+  color: rgb(112, 61, 13);
+}
+
+.tablebox {
+  font-size: 16px;
+  color: rgb(133, 75, 111)
 }
