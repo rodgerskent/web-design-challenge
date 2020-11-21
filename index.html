@@ -1,0 +1,110 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Landing Overview Page</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+
+    <nav class="navbar">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="http://127.0.0.1:5500/web-design-challenge/index.html">Overview</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Temperature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Humidity</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Cloudiness</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Wind Speed</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5500/web-design-challenge/comparisonpage.html">Comparisons</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://127.0.0.1:5500/web-design-challenge/datapage.html">Data</a>
+        </li>
+      </ul>
+
+      <div class="btn-group">
+        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Plots
+        </button>
+        <div class="dropdown-menu dropdown-menu-right">
+          <a class="dropdown-item" href="#">Temperature</a>
+        <a class="dropdown-item" href="#">Humidity</a>
+        <a class="dropdown-item" href="#">Cloudiness</a>
+        <a class="dropdown-item" href="#">Wind Speed</a>
+    </div> 
+
+    </nav>
+  
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box border"></div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box header">Project Summary & Overview - Comparing Lattitude to "X"</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="box mainbody">
+          <img id="bio-image" src="Resources\assets\images\Fig1.png" width = 360 height = 300 alt="Missing Plot Image">
+          </div>
+      </div>
+      <div class="col-md-8">
+        <div class="box mainbody">For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting [weather data](Resources/cities.csv). In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+          The purpose of this project is to test Kent's patience. More random text from a job description at my finger tips is: In this role, you’ll apply your expertise in quantitative analysis, data wrangling, presentation of data, and a commercially-driven mindset to help Marketing leadership and stakeholders see beyond the numbers. You’ll be a key contributor in the analysis and synthesis of our business drivers to help optimize marketing efficiency and effectiveness and fuel company growth. In this fast-paced role, you will have the opportunity to make a significant impact on marketing planning and strategy to drive key business outcomes.</div>
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="box header">Visualizations</div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-3">
+        <div class="box mainbody"><img id="bio-image" src="Resources\assets\images\Fig1.png" width = 260 height = 220 alt="Missing Fig1"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box mainbody"><img id="bio-image" src="Resources\assets\images\Fig2.png" width = 260 height = 220 alt="Missing Fig2"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box mainbody"><img id="bio-image" src="Resources\assets\images\Fig3.png" width = 260 height = 220 alt="Missing Fig3"></div>
+      </div>
+      <div class="col-md-3">
+        <div class="box mainbody"><img id="bio-image" src="Resources\assets\images\Fig4.png" width = 260 height = 220 alt="Missing Fig4"></div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+          <div class="box border">Shamelessly Pirated and Now Copyright 2020 Kent Matthew Rodgers</div>
+        </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

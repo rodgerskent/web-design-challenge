@@ -1,0 +1,37 @@
+.box {
+  min-height: 50px;
+  padding: 1px;
+  margin: 1px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.border {
+  background: rgb(89, 191, 224);
+  min-height: 10px;
+  font-size: 9px;
+}
+.header {
+  background: rgb(243, 247, 248);
+  font-size: 30px;
+  color: rgb(19, 86, 138)
+}
+.mainbody {
+  font-size: 16px;
+  color: rgb(19, 86, 138)
+}
+
+.title {
+  background: rgb(243, 247, 248);
+  min-height: 10px;
+  font-size: 16px;
+  color: rgb(19, 86, 138)
+  }
+
+.purple {
+  background: rgb(200, 190, 211);
+}
+
+.red {
+  background: rgb(224, 210, 210);
+}
