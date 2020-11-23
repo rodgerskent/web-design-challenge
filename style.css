@@ -1,7 +1,7 @@
 .box {
   min-height: 50px;
-  padding: 1px;
-  margin: 1px;
+  padding: 2px;
+  margin: 2px;
   font-weight: 800;
   color: #fff;
 }
@@ -27,14 +27,6 @@
   font-size: 16px;
   color: rgb(19, 86, 138)
   }
-
-.purple {
-  background: rgb(200, 190, 211);
-}
-
-.red {
-  background: rgb(224, 210, 210);
-}
 
 .table {
   min-height: 50px;
